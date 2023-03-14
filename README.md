@@ -31,8 +31,8 @@
 
 ### 5.2. Qualitative Results
 
-## Citations
+## 6. Citations
 
-## Contact
+## 7. Contact
 - Guolei Sun, sunguolei.kaust@gmail.com
 - Yun Liu, yun.liu@vision.ee.ethz.ch
