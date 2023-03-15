@@ -32,7 +32,14 @@
 ### 5.2. Qualitative Results
 
 ## 6. Citations
-
+```bibtex
+@inproceedings{sun2022vss,
+    title={Indiscernible Object Counting in Underwater Scenes},
+    author={Sun, Guolei and An, Zhaochong and Liu, Yun and Liu, Ce and Sakaridis, Christos and Fan, Deng-Ping and Van Gool, Luc},
+    booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision and Patern Recognition (CVPR)},
+    year={2023}
+}
+```
 ## 7. Contact
 - Guolei Sun, sunguolei.kaust@gmail.com
 - Yun Liu, yun.liu@vision.ee.ethz.ch
