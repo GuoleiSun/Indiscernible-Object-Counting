@@ -13,6 +13,15 @@
 
 ## 2. The Proposed Dataset
 Our dataset can be downloaded from [here](https://drive.google.com/file/d/1KkAci5XgX2TxFI18RuTWS4Jz3aFU1OVb/view?usp=sharing).
+The annotations are in xml format. Each object instance is annotated by a point (x,y coordinates). The point annotation in xml is as follows:
+'''
+    <object>
+        <point>
+            <x>488</x>
+            <y>353</y>
+        </point>
+    </object>
+'''
 
 ## 3. Benchmarking
 
