@@ -21,6 +21,31 @@ The existing object counting tasks include: Generic Object Counting (GOC), and D
 Due to a lack of appropriate IOC datasets, we present a large-scale dataset IOCfish5K which contains a total of 5,637 high-resolution images and 659,024 annotated center points. Underwater scenes contain many indiscernible objects (Sea Horse, Reef Stonefish, Lionfish, and Leafy Sea Dragon) because of limited visibility and active mimicry. Hence, we focus on underwater scenes for our dataset. 
 
 ## 2. The Proposed Dataset
+The comparisons between our dataset and existing datasets are shown below.
+| Dataset          | Year | Indiscernible Scene | #Ann. IMG | Avg. Resolution | Free View | Total Count | Min Count | Ave Count | Max Count |  Web |
+|------------------|:----:|:-------------------:|:---------:|:---------------:|:---------:|:-----------:|:---------:|:---------:|:---------:|:----:|
+| UCSD             | 2008 |      &cross;        |   2,000   |     158x238     |  &check;  |    49,885   |     11    |     25    |     46    | [Link](http://www.svcl.ucsd.edu/projects/peoplecnt/) |
+| Mall             | 2012 |      &cross;        |   2,000   |     480x640     |  &cross;  |    62,325   |     13    |     31    |     53    | [Link](http://personal.ie.cuhk.edu.hk/~ccloy/downloads_mall_dataset.html) |
+| UCF_CC_50        | 2013 |      &cross;        |     50    |    2101x2888    |  &check;  |    63,974   |     94    |   1,279   |   4,543   | [Link](http://crcv.ucf.edu/data/ucf-cc-50/) |
+| WorldExpo'10     | 2016 |      &cross;        |   3,980   |     576x720     |  &cross;  |   199,923   |     1     |     50    |    253    | [Link](http://www.ee.cuhk.edu.hk/~xgwang/expo.html) |
+| ShanghaiTech B   | 2016 |      &cross;        |    716    |     768x1024    |  &cross;  |    88,488   |     9     |    123    |    578    | [Link](https://github.com/desenzhou/ShanghaiTechDataset) |
+| ShanghaiTech A   | 2016 |      &cross;        |    482    |     589x868     |  &check;  |   241,677   |     33    |    501    |   3,139   | [Link](https://github.com/desenzhou/ShanghaiTechDataset) |
+| UCF-QNRF         | 2018 |      &cross;        |   1,535   |    2013x2902    |  &check;  |  1,251,642  |     49    |    815    |   12,865  | [Link](https://www.crcv.ucf.edu/data/ucf-qnrf/) |
+| Crowd_surv       | 2019 |      &cross;        |   13,945  |     840x1342    |  &cross;  |   386,513   |     2     |     35    |    1420   | [Link](https://ai.baidu.com/broad/introduction) |
+| GCC (synthetic)  | 2019 |      &cross;        |   15,212  |    1080x1920    |  &cross;  |  7,625,843  |     0     |    501    |   3,995   | [Link](https://mailnwpueducn-my.sharepoint.com/:f:/g/personal/gjy3035_mail_nwpu_edu_cn/Eo4L82dALJFDvUdy8rBm6B0BuQk6n5akJaN1WUF1BAeKUA?e=ge2cRg) |
+| JHU-CROWD++      | 2019 |      &cross;        |   4,372   |     910x1430    |  &check;  |  1,515,005  |     0     |    346    |   25,791  | [Link](http://www.crowd-counting.com/) |
+| NWPU-Crowd       | 2020 |      &cross;        |   5,109   |    2191x3209    |  &check;  |  2,133,375  |     0     |    418    |   20,033  | [Link](https://gjy3035.github.io/NWPU-Crowd-Sample-Code/) |
+| NC4K             | 2021 |      &check;        |   4,121   |     530x709     |  &check;  |    4,584    |     1     |     1     |     8     | [Link](https://github.com/JingZhang617/COD-Rank-Localize-and-Segment) |
+| CAMO++           | 2021 |      &check;        |   5,500   |       N/A       |  &check;  |    32,756   |    N/A    |     6     |    N/A    | [Link](https://sites.google.com/view/ltnghia/research/camo_plus_plus) |
+| COD              | 2022 |      &check;        |   5,066   |     737x964     |  &check;  |    5,899    |     1     |     1     |     8     | [Link](https://github.com/DengPingFan/SINet) |
+| IOCfish5K (Ours) | 2023 |      &check;        |   5,637   |    1080x1920    |  &check;  |   659,024   |     0     |    117    |   2,371   | [Link](https://github.com/GuoleiSun/Indiscernible-Object-Counting) |
+<p align="center">
+<!--     <img src="./figs/datasets.png"/> <br /> -->
+    <em> 
+    Table 1: Statistics of existing datasets for dense object counting (DOC) and indiscernible object counting (IOC).
+    </em>
+</p>
+
 Our dataset can be downloaded from [here](https://drive.google.com/file/d/1ETY_AdJB9azzja6L9URN58KtL4OH98SL/view?usp=sharing).
 The annotations are in xml format. Each object instance is annotated by a point (x,y coordinates). The point annotation in xml is as follows:
 ```
