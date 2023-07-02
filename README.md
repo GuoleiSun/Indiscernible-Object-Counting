@@ -46,7 +46,21 @@ The comparisons between our dataset and existing datasets are shown below.
     </em>
 </p>
 
-Our dataset can be downloaded from [here](https://drive.google.com/file/d/1ETY_AdJB9azzja6L9URN58KtL4OH98SL/view?usp=sharing).
+Our dataset can be downloaded from [here](https://drive.google.com/file/d/1ETY_AdJB9azzja6L9URN58KtL4OH98SL/view?usp=sharing). Our dataset is organized as follows:
+```
+    IOCfish5K
+    ├── images
+        ├──****.jpg
+        ├──****.jpg
+    ├── annotations
+        ├──****.xml
+        ├──****.xml
+    ├── train_id.txt
+    ├── val_id.txt
+    ├── test_id.txt
+```
+The image ids for train/val/test are in ```train_id.txt```, ```val_id.txt```, and ```test_id.txt```, respectively.
+  
 The annotations are in xml format. Each object instance is annotated by a point (x,y coordinates). The point annotation in xml is as follows:
 ```
     <object>
@@ -59,15 +73,19 @@ The annotations are in xml format. Each object instance is annotated by a point 
 
 ## 3. Benchmarking
 
-### 4.1. Overview
+### 3.1. Overview
+For benchmarking purposes, we select 14 mainstream methods for object counting and carefully evaluate them on IOCfish5K.
 
-### 4.2. Usage
+### 3.2. Usage
+To do
 
 ## 4. The Proposed Method
 
 ### 4.1. Overview
+we propose IOCFormer, a new strong baseline that combines density and regression branches in a unified framework and can effectively tackle object counting under concealed scenes.
 
 ### 4.2. Usage
+For training/inference, please go to [here]().
 
 ## 5. Results
 
