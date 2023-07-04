@@ -111,7 +111,10 @@ The results for various methods are shown below.
 | IOCFormer (Ours) |   CVPR'23   |   15.91  |   34.08  |   0.26   |   17.12   |   41.25  |   0.38   |
 
 ### 5.2. Qualitative Results
-
+Qualitative comparisons of various algorithms (NoisyCC, MAN, CLTR, and ours). The GT or estimated counts for each case are shown in the lower left corner.
+<p align="center">
+    <img src="./figs/qual_res.png" /> <br />
+</p>
 
 ## 6. Citations
 ```bibtex
