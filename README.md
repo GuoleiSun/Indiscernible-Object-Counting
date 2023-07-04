@@ -86,7 +86,7 @@ To do
 we propose IOCFormer, a new strong baseline that combines density and regression branches in a unified framework and can effectively tackle object counting under concealed scenes.
 
 ### 4.2. Usage
-For training/inference, please go to [here]().
+For training/inference, please go to [here](https://github.com/GuoleiSun/Indiscernible-Object-Counting/tree/main/IOC).
 
 ## 5. Results
 
