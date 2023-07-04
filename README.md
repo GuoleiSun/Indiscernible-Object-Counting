@@ -47,7 +47,7 @@ The comparisons between our dataset and existing datasets are shown below.
     </em>
 </p>
 
-Our dataset can be downloaded from [here](https://drive.google.com/file/d/1ETY_AdJB9azzja6L9URN58KtL4OH98SL/view?usp=sharing). Our dataset is organized as follows:
+Our dataset can be downloaded from [here](https://drive.google.com/file/d/1ETY_AdJB9azzja6L9URN58KtL4OH98SL/view?usp=sharing). It is organized as follows:
 ```
     IOCfish5K
     ├── images
