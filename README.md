@@ -3,7 +3,7 @@
 
 > Authors:
 > [Guolei Sun](https://guoleisun.github.io/), 
-> [Zhaochong An](https://1170801121.github.io/), 
+> [Zhaochong An](https://zhaochongan.github.io/), 
 > [Yun Liu](https://yun-liu.github.io/), 
 > [Ce Liu](https://vision.ee.ethz.ch/people-details.MjYzNDA1.TGlzdC8zMjg5LC0xOTcxNDY1MTc4.html), 
 > [Christos Sakaridis](https://people.ee.ethz.ch/~csakarid/), 
@@ -61,7 +61,7 @@ Our dataset can be downloaded from [here](https://drive.google.com/file/d/1ETY_A
     ├── test_id.txt
 ```
 The image ids for train/val/test are in ```train_id.txt```, ```val_id.txt```, and ```test_id.txt```, respectively.
-  
+
 The annotations are in xml format. Each object instance is annotated by a point (x,y coordinates). The point annotation in xml is as follows:
 ```
     <object>
