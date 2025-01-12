@@ -91,11 +91,10 @@ Our IOCfish5K-D dataset contains depth maps for all images in IOCfish5K. The dep
 
 ## 3. Benchmarking
 
-### 3.1. Overview
-For benchmarking purposes, we select 14 mainstream methods for object counting and carefully evaluate them on IOCfish5K.
+For benchmarking purposes on IOCfish5K, we select 14 mainstream unimodal methods for object counting and carefully evaluate them.
 
-### 3.2. Usage
-To do
+For benchmarking purposes on IOCfish5K-D, we select 4 mainstream multimodal methods for object counting and carefully evaluate them.
+
 
 ## 4. The Proposed Method
 
