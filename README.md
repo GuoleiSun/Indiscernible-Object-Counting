@@ -1,5 +1,5 @@
 # Indiscernible Object Counting in Underwater Scenes (CVPR2023)
-> [Paper](https://arxiv.org/abs/2304.11677) [Supp](https://openaccess.thecvf.com/content/CVPR2023/supplemental/Sun_Indiscernible_Object_Counting_CVPR_2023_supplemental.pdf) [Poster](https://docs.google.com/presentation/d/1Fj_lPBqFkZLkmaRHIIWIk-9gi7x0eKUh/edit?usp=sharing&ouid=109860074576125304916&rtpof=true&sd=true) [IOCfish5k Dataset](https://drive.google.com/file/d/1RtlFXjjVoofrFTa87_FYm7wMWN7fwE6r/view?usp=sharing)
+> [Paper](https://arxiv.org/abs/2304.11677), [Supp](https://openaccess.thecvf.com/content/CVPR2023/supplemental/Sun_Indiscernible_Object_Counting_CVPR_2023_supplemental.pdf), [Poster](https://docs.google.com/presentation/d/1Fj_lPBqFkZLkmaRHIIWIk-9gi7x0eKUh/edit?usp=sharing&ouid=109860074576125304916&rtpof=true&sd=true), [IOCfish5k Dataset](https://drive.google.com/file/d/1RtlFXjjVoofrFTa87_FYm7wMWN7fwE6r/view?usp=sharing)
 
 > Authors:
 > [Guolei Sun](https://guoleisun.github.io/), 
@@ -11,7 +11,7 @@
 > [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html).
 
 # RGB-D Indiscernible Object Counting in Underwater Scenes
-> [Paper]() [IOCfish5k-D Dataset](https://drive.google.com/file/d/1JobO82ASLSnyF3bqjiQumiT2D0OXmO1f/view?usp=sharing)
+> [Paper](), [IOCfish5k-D Dataset](https://drive.google.com/file/d/1JobO82ASLSnyF3bqjiQumiT2D0OXmO1f/view?usp=sharing)
 
 > Authors:
 > [Guolei Sun](https://guoleisun.github.io/),
@@ -53,6 +53,8 @@ The comparisons between our dataset and existing datasets are shown below.
 | CAMO++           | 2021 |      &check;        |   5,500   |       N/A       |  &check;  |    32,756   |    N/A    |     6     |    N/A    | [Link](https://sites.google.com/view/ltnghia/research/camo_plus_plus) |
 | COD              | 2022 |      &check;        |   5,066   |     737x964     |  &check;  |    5,899    |     1     |     1     |     8     | [Link](https://github.com/DengPingFan/SINet) |
 | IOCfish5K (Ours) | 2023 |      &check;        |   5,637   |    1080x1920    |  &check;  |   659,024   |     0     |    117    |   2,371   | [Link](https://github.com/GuoleiSun/Indiscernible-Object-Counting) |
+| IOCfish5K-D (with depth maps, Ours) | 2023 |      &check;        |   5,637   |    1080x1920    |  &check;  |   659,024   |     0     |    117    |   2,371   | [Link](https://github.com/GuoleiSun/Indiscernible-Object-Counting) |
+
 <p align="center">
 <!--     <img src="./figs/datasets.png"/> <br /> -->
     <em> 
@@ -60,7 +62,7 @@ The comparisons between our dataset and existing datasets are shown below.
     </em>
 </p>
 
-Our dataset can be downloaded from [here](https://drive.google.com/file/d/1RtlFXjjVoofrFTa87_FYm7wMWN7fwE6r/view?usp=sharing). It is organized as follows:
+Our IOCfish5K dataset can be downloaded from [here](https://drive.google.com/file/d/1RtlFXjjVoofrFTa87_FYm7wMWN7fwE6r/view?usp=sharing). It is organized as follows:
 ```
     IOCfish5K
     ├── images
@@ -85,6 +87,8 @@ The annotations are in xml format. Each object instance is annotated by a point 
     </object>
 ```
 
+Our IOCfish5K-D dataset contains depth maps for all images in IOCfish5K. The depth maps can be downloaded from [here](https://drive.google.com/file/d/1JobO82ASLSnyF3bqjiQumiT2D0OXmO1f/view?usp=sharing).
+
 ## 3. Benchmarking
 
 ### 3.1. Overview
@@ -103,7 +107,7 @@ For training/inference, please go to [here](https://github.com/GuoleiSun/Indisce
 
 ## 5. Results
 
-### 5.1. Quantitative Results
+### 5.1. Quantitative Results for unimodal methods
 The results for various methods are shown below.
 | Method           | Publication | Val: MAE | Val: MSE | Val: NAE | Test: MAE | Test:MSE | Test:NAE |
 |------------------|:-----------:|:--------:|:--------:|:--------:|:---------:|:--------:|:--------:|
@@ -122,6 +126,17 @@ The results for various methods are shown below.
 | MAN              |   CVPR'22   |   24.36  |   40.65  |   2.39   |   25.82   |   45.82  |   3.16   |
 | CLTR             |   ECCV'22   |   17.47  |   37.06  |   0.29   |   18.07   |   41.90  |   0.43   |
 | IOCFormer (Ours) |   CVPR'23   |   15.91  |   34.08  |   0.26   |   17.12   |   41.25  |   0.38   |
+
+### 5.1. Quantitative Results for multimodal methods
+The results for various methods are shown below.
+| Method           | Publication | Val: MAE | Val: MSE | Val: NAE | Test: MAE | Test:MSE | Test:NAE |
+|------------------|:-----------:|:--------:|:--------:|:--------:|:---------:|:--------:|:--------:|
+| RDNet            |   CVPR'19   |   25.79  |  60.85  |   1.29   |   25.27   |  56.69  |   1.43   |
+| IADM             |   CVPR'21   |   20.27  |  41.32  |   0.80   |   20.67   |  44.93  |   0.95   |
+| CSCA             |   ACCV'22   |   24.42  |  55.04  |   0.98   |   24.10   |  50.97  |   1.24   |
+| BM               |   ECCV'24   |   18.77  |  43.69  |   0.74   |   18.45   |  40.88  |   0.86   |
+| IOCFormer-D (Ours) |   -       |   15.19  |  32.89  |   0.24   |   16.80   |  40.60  |   0.33   |
+
 
 ### 5.2. Qualitative Results
 Qualitative comparisons of various algorithms (NoisyCC, MAN, CLTR, and ours). The GT or estimated counts for each case are shown in the lower left corner.
