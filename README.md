@@ -124,7 +124,7 @@ The results for various methods are shown below.
 | MPS              |  ICASSP'22  |   34.68  |   59.46  |   2.06   |   33.55   |   55.02  |   2.61   |
 | MAN              |   CVPR'22   |   24.36  |   40.65  |   2.39   |   25.82   |   45.82  |   3.16   |
 | CLTR             |   ECCV'22   |   17.47  |   37.06  |   0.29   |   18.07   |   41.90  |   0.43   |
-| **IOCFormer** (Ours) |   CVPR'23   |   15.91  |   34.08  |   0.26   |   17.12   |   41.25  |   0.38   |
+| **IOCFormer** (Ours) |   CVPR'23   |   **15.91**  |   **34.08**  |   **0.26**   |   **17.12**   |   **41.25**  |   **0.38**   |
 
 ### 5.1. Quantitative Results for multimodal methods
 The results for various methods are shown below.
@@ -134,7 +134,7 @@ The results for various methods are shown below.
 | IADM             |   CVPR'21   |   20.27  |  41.32  |   0.80   |   20.67   |  44.93  |   0.95   |
 | CSCA             |   ACCV'22   |   24.42  |  55.04  |   0.98   |   24.10   |  50.97  |   1.24   |
 | BM               |   ECCV'24   |   18.77  |  43.69  |   0.74   |   18.45   |  40.88  |   0.86   |
-| **IOCFormer-D** (Ours) |   -       |   15.19  |  32.89  |   0.24   |   16.80   |  40.60  |   0.33   |
+| **IOCFormer-D** (Ours) |   -       |   **15.19**  |  **32.89**  |   **0.24**   |   **16.80**   |  **40.60**  |   **0.33**   |
 
 
 ### 5.2. Qualitative Results
