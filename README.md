@@ -10,7 +10,7 @@
 > [Deng-Ping Fan](https://dengpingfan.github.io/),
 > [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html).
 
-# RGB-D Indiscernible Object Counting in Underwater Scenes
+# RGB-D Indiscernible Object Counting in Underwater Scenes (journal extension)
 > [Paper](https://arxiv.org/pdf/2304.11677), [IOCfish5k-D Dataset](https://drive.google.com/file/d/1JobO82ASLSnyF3bqjiQumiT2D0OXmO1f/view?usp=sharing)
 
 > Authors:
