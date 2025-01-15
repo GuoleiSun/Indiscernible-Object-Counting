@@ -34,7 +34,7 @@ The existing object counting tasks include: Generic Object Counting (GOC), and D
 
 Due to a lack of appropriate IOC datasets, we present a large-scale dataset IOCfish5K which contains a total of 5,637 high-resolution images and 659,024 annotated center points. Underwater scenes contain many indiscernible objects (Sea Horse, Reef Stonefish, Lionfish, and Leafy Sea Dragon) because of limited visibility and active mimicry. Hence, we focus on underwater scenes for our dataset. 
 
-## 2. The Proposed Dataset
+## 2. The Proposed Datasets
 The comparisons between our dataset and existing datasets are shown below.
 | Dataset          | Year | Indiscernible Scene | #Ann. IMG | Avg. Resolution | Free View | Total Count | Min Count | Ave Count | Max Count |  Web |
 |------------------|:----:|:-------------------:|:---------:|:---------------:|:---------:|:-----------:|:---------:|:---------:|:---------:|:----:|
@@ -52,8 +52,8 @@ The comparisons between our dataset and existing datasets are shown below.
 | NC4K             | 2021 |      &check;        |   4,121   |     530x709     |  &check;  |    4,584    |     1     |     1     |     8     | [Link](https://github.com/JingZhang617/COD-Rank-Localize-and-Segment) |
 | CAMO++           | 2021 |      &check;        |   5,500   |       N/A       |  &check;  |    32,756   |    N/A    |     6     |    N/A    | [Link](https://sites.google.com/view/ltnghia/research/camo_plus_plus) |
 | COD              | 2022 |      &check;        |   5,066   |     737x964     |  &check;  |    5,899    |     1     |     1     |     8     | [Link](https://github.com/DengPingFan/SINet) |
-| IOCfish5K (Ours) | 2023 |      &check;        |   5,637   |    1080x1920    |  &check;  |   659,024   |     0     |    117    |   2,371   | [Link](https://github.com/GuoleiSun/Indiscernible-Object-Counting) |
-| IOCfish5K-D (with depth maps, Ours) | 2023 |      &check;        |   5,637   |    1080x1920    |  &check;  |   659,024   |     0     |    117    |   2,371   | [Link](https://github.com/GuoleiSun/Indiscernible-Object-Counting) |
+| **IOCfish5K** (Ours) | 2023 |      &check;        |   5,637   |    1080x1920    |  &check;  |   659,024   |     0     |    117    |   2,371   | [Link](https://github.com/GuoleiSun/Indiscernible-Object-Counting) |
+| **IOCfish5K-D** (with depth maps, Ours) | 2023 |      &check;        |   5,637   |    1080x1920    |  &check;  |   659,024   |     0     |    117    |   2,371   | [Link](https://github.com/GuoleiSun/Indiscernible-Object-Counting) |
 
 <p align="center">
 <!--     <img src="./figs/datasets.png"/> <br /> -->
@@ -124,7 +124,7 @@ The results for various methods are shown below.
 | MPS              |  ICASSP'22  |   34.68  |   59.46  |   2.06   |   33.55   |   55.02  |   2.61   |
 | MAN              |   CVPR'22   |   24.36  |   40.65  |   2.39   |   25.82   |   45.82  |   3.16   |
 | CLTR             |   ECCV'22   |   17.47  |   37.06  |   0.29   |   18.07   |   41.90  |   0.43   |
-| IOCFormer (Ours) |   CVPR'23   |   15.91  |   34.08  |   0.26   |   17.12   |   41.25  |   0.38   |
+| **IOCFormer** (Ours) |   CVPR'23   |   15.91  |   34.08  |   0.26   |   17.12   |   41.25  |   0.38   |
 
 ### 5.1. Quantitative Results for multimodal methods
 The results for various methods are shown below.
@@ -134,7 +134,7 @@ The results for various methods are shown below.
 | IADM             |   CVPR'21   |   20.27  |  41.32  |   0.80   |   20.67   |  44.93  |   0.95   |
 | CSCA             |   ACCV'22   |   24.42  |  55.04  |   0.98   |   24.10   |  50.97  |   1.24   |
 | BM               |   ECCV'24   |   18.77  |  43.69  |   0.74   |   18.45   |  40.88  |   0.86   |
-| IOCFormer-D (Ours) |   -       |   15.19  |  32.89  |   0.24   |   16.80   |  40.60  |   0.33   |
+| **IOCFormer-D** (Ours) |   -       |   15.19  |  32.89  |   0.24   |   16.80   |  40.60  |   0.33   |
 
 
 ### 5.2. Qualitative Results
