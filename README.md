@@ -7,7 +7,7 @@
 > [Yun Liu](https://yun-liu.github.io/), 
 > [Ce Liu](https://vision.ee.ethz.ch/people-details.MjYzNDA1.TGlzdC8zMjg5LC0xOTcxNDY1MTc4.html), 
 > [Christos Sakaridis](https://people.ee.ethz.ch/~csakarid/), 
-> [Deng-Ping Fan](https://dengpingfan.github.io/),
+> [Deng-Ping Fan*](https://dengpingfan.github.io/),
 > [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html).
 
 # RGB-D Indiscernible Object Counting in Underwater Scenes (journal extension)
@@ -18,7 +18,7 @@
 > [Xiaogang Cheng](https://scholar.google.com/citations?user=y6SrwJgAAAAJ&hl=en),
 > [Zhaochong An](https://zhaochongan.github.io),
 > [Xiaokang Wang](),
-> [Yun Liu](https://yun-liu.github.io/),
+> [Yun Liu*](https://yun-liu.github.io/),
 > [Deng-Ping Fan](https://dengpingfan.github.io/),
 > [Ming-Ming Cheng](https://scholar.google.com/citations?user=huWpVyEAAAAJ&hl=en),
 > [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html).
