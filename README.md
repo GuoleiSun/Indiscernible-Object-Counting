@@ -152,5 +152,9 @@ Qualitative comparisons of various algorithms (NoisyCC, MAN, CLTR, and ours). Th
     year={2023}
 }
 ```
+
+## Dataset License
+The IOCfish5K and IOCfish5K-D datasets are released under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0). For commercial use, please contact the authors.
+
 ## 7. Contact
 - Guolei Sun, sunguolei.kaust@gmail.com
